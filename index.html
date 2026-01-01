@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وبلاگ روزنامه‌ای</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="newspaper-container">
+        <!-- هدر روزنامه -->
+        <header class="newspaper-header">
+            <div class="header-top">
+                <span class="date">پنج شنبه ۱۱ دی ۱۴۰۴</span>
+                <span class="issue">شماره ۰۰۱</span>
+            </div>
+            <h1 class="newspaper-title">روزنامه خودمونی</h1>
+            <p class="newspaper-slogan">آخرین اخبار و مقالات دانشگاه ملی مهارت </p>
+        </header>
+
+        <!-- نوار ناوبری -->
+        <nav class="newspaper-nav">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> صفحه اصلی</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i> اخبار روز</a></li>
+                <li><a href="#"><i class="fas fa-pen-fancy"></i> مقالات</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> فرهنگ و هنر</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i> درباره ما</a></li>
+            </ul>
+        </nav>
+
+        <!-- محتوای اصلی -->
+        <main class="newspaper-content">
+            <!-- ستون اصلی با مقالات بزرگ -->
+            <div class="main-column">
+                <!-- مقاله ویژه -->
+                <article class="featured-article">
+                    <div class="article-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBztn2GFD74q18AFwc39W1SExTR3jTO02fQ&s" alt="تکنولوژی جدید">
+                        <span class="image-caption">نمایشگاه تکنولوژی ۱۴۰۳</span>
+                    </div>
+                    <div class="article-content">
+                        <h2 class="article-title">تکنولوژی‌های نوین چگونه زندگی ما را تغییر می‌دهند؟</h2>
+                        <div class="article-meta">
+                            <span><i class="fas fa-user"></i> علی محمدی</span>
+                            <span><i class="fas fa-clock"></i> ۲ ساعت پیش</span>
+                            <span><i class="fas fa-comment"></i> ۱۲ نظر</span>
+                        </div>
+                        <p class="article-excerpt">در این مقاله به بررسی تأثیر فناوری‌های نوین مانند هوش مصنوعی، اینترنت اشیا و بلاکچین بر زندگی روزمره مردم می‌پردازیم. این فناوری‌ها نه تنها نحوه کار و ارتباطات ما را تغییر داده‌اند، بلکه بر فرهنگ و سبک زندگی نیز تأثیر گذاشته‌اند...</p>
+                        <a href="#" class="read-more">ادامه مطلب <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </article>
+
+                <!-- مقالات دیگر -->
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <div class="article-category culture">فرهنگ و هنر</div>
+                        <h3 class="article-card-title">نقاشی دیجیتال: هنر عصر جدید</h3>
+                        <div class="article-meta">
+                            <span><i class="fas fa-user"></i> فاطمه احمدی</span>
+                            <span><i class="fas fa-clock"></i> ۵ ساعت پیش</span>
+                        </div>
+                        <p class="article-card-excerpt">نقاشی دیجیتال به عنوان یک هنر نوظهور، امکانات بی‌شماری را در اختیار هنرمندان قرار داده است. این مقاله به بررسی تحولات این حوزه می‌پردازد.</p>
+                        <a href="#" class="read-more-small">ادامه مطلب</a>
+                    </article>
+
+                    <article class="article-card">
+                        <div class="article-category economy">اقتصاد</div>
+                        <h3 class="article-card-title">تأثیر افزایش نرخ ارز بر بازار داخلی</h3>
+                        <div class="article-meta">
+                            <span><i class="fas fa-user"></i> محمود رضایی</span>
+                            <span><i class="fas fa-clock"></i> ۸ ساعت پیش</span>
+                        </div>
+                        <p class="article-card-excerpt">نوسانات نرخ ارز در ماه‌های اخیر تأثیر مستقیمی بر قیمت کالاهای اساسی داشته است. تحلیلگران اقتصادی پیش‌بینی‌های خود را ارائه داده‌اند.</p>
+                        <a href="#" class="read-more-small">ادامه مطلب</a>
+                    </article>
+                </div>
+            </div>
+
+            <!-- ستون کناری -->
+            <aside class="sidebar">
+                <!-- اخبار فوری -->
+                <div class="breaking-news">
+                    <h3 class="sidebar-title"><i class="fas fa-bolt"></i> اخبار فوری</h3>
+                    <ul class="news-list">
+                        <li><a href="#">افتتاح پروژه جدید حمل و نقل ریلی در تهران</a></li>
+                        <li><a href="#">برگزاری جشنواره بین‌المللی فیلم در اصفهان</a></li>
+                        <li><a href="#">رکورد جدید در تولید محصولات کشاورزی</a></li>
+                        <li><a href="#">انتشار کتاب جدید از نویسنده محبوب ایرانی</a></li>
+                    </ul>
+                </div>
+
+                <!-- مقالات پربازدید -->
+                <div class="popular-articles">
+                    <h3 class="sidebar-title"><i class="fas fa-chart-line"></i> پربازدیدترین‌ها</h3>
+                    <ol class="popular-list">
+                        <li><a href="#">۱۰ نکته برای بهبود سئو در وبسایت‌ها</a></li>
+                        <li><a href="#">راهنمای سفر به شمال ایران در فصل بهار</a></li>
+                        <li><a href="#">معرفی ۵ کتاب برتر حوزه روانشناسی</a></li>
+                        <li><a href="#">بررسی جدیدترین گوشی‌های هوشمند بازار</a></li>
+                        <li><a href="#">تغذیه سالم در ماه رمضان</a></li>
+                    </ol>
+                </div>
+
+                <!-- خبرنگاران -->
+                <div class="reporters">
+                    <h3 class="sidebar-title"><i class="fas fa-user-edit"></i> خبرنگاران امروز</h3>
+                    <div class="reporter">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="خبرنگار">
+                        <div class="reporter-info">
+                            <h4>رضا کریمی</h4>
+                            <p>تحلیل مسائل اقتصادی</p>
+                        </div>
+                    </div>
+                    <div class="reporter">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="خبرنگار">
+                        <div class="reporter-info">
+                            <h4>سارا نوروزی</h4>
+                            <p>گزارش‌های فرهنگی</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- فوتر -->
+        <footer class="newspaper-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>درباره روزنامه وبلاگ</h4>
+                    <p>یک وبلاگ روزنامه‌ای با هدف انتشار آخرین اخبار و مقالات در حوزه‌های مختلف. ما سعی داریم اطلاعات دقیق و به روز را در اختیار خوانندگان قرار دهیم.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>دسترسی سریع</h4>
+                    <ul>
+                        <li><a href="#">آرشیو مقالات</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                        <li><a href="#">قوانین و مقررات</a></li>
+                        <li><a href="#">اشتراک در خبرنامه</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>شبکه‌های اجتماعی</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© ۱۴۰۳ - کلیه حقوق برای روزنامه وبلاگ محفوظ است.</p>
+                <p>طراحی و توسعه با ❤️</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // برای تغییر تاریخ به صورت دینامیک
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const persianDate = now.toLocaleDateString('fa-IR', options);
+            const dateElement = document.querySelector('.date');
+            if(dateElement) {
+                dateElement.textContent = persianDate;
+            }
+            
+            // اضافه کردن اثر hover به کارت مقالات
+            const articleCards = document.querySelectorAll('.article-card');
+            articleCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
